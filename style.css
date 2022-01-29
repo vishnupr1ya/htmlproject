@@ -1,0 +1,111 @@
+.main-content{
+    height: 100%;
+    width: 100%;
+    margin: auto,auto;
+    display: grid;
+    grid-template-columns: 300px 700px;
+	grid-auto-rows: 1fr;
+}
+@media screen and (max-width:674px){
+    .main-content{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        height: 100%;
+    }  
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+	grid-column-gap: 10px;
+    grid-gap: 1px;
+	column-gap: 1px;
+	justify-content: center;
+}
+
+.left-section{
+	height: 100%;
+	min-height: 1000px;
+    column-width:  300px;
+    background-color:bisque;
+}
+.right-section{
+	height: 100%;
+	min-height: 1000px;
+    column-width: 700px;
+    background-color: thistle;
+}
+.body{
+    color: rgb(15, 11, 11);
+}
+.left-content{
+    padding: 1 rem;
+}
+.profile-details{
+    display: block;
+    margin: auto;
+    border: 5px white solid ;
+    border-radius:30% ;
+}
+.profile-image{
+    display: block;
+    margin: auto;
+    border: 5px white solid ;
+    border-radius:30% ;
+    width: 60%;
+	height: 60%;
+}
+.name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.02px;
+    padding: 0.8rem;
+}
+.designation{
+    font-size: 1 rem;
+    text-align:center;
+    text-transform: uppercase;
+    padding-bottom: 0.5 rem ;
+}
+.description{
+    font-size: 0.75 rem;
+    text-align: center ;
+    padding: 1 rem;
+}
+.skills{
+    font-size: 0.7rem;
+    text-align: center;
+    text-transform: uppercase ;
+    padding-top: 1rem ;
+    
+    padding-left: 0.5rem;
+    padding-right:0.5rem ;
+}
+
+.skill-name{
+    font-size:0.65rem ;
+    font-weight: 0.65rem;
+    text-align: left;
+    padding-bottom:0.6rem;
+}
+.progress-bar{
+    border: 1px black solid;
+    height: 15px;
+	background-color:rosybrown;
+	text-align: center;
+}
+.right-main-content{
+    padding-top: 2rem ;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-decoration: none;
+}
+.right-title{
+    font-size:1.2rem ;
+    font-weight:700 ;
+    padding: 0.5rem ;
+    letter-spacing: 1px ;
+    text-transform: uppercase;
+}
